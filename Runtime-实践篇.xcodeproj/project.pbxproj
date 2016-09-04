@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		337853AE1D7AE09200EA6EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 337853AD1D7AE09200EA6EEA /* main.m */; };
+		337853B61D7AE2F600EA6EEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 337853B51D7AE2F600EA6EEA /* Person.m */; };
+		337853B91D7AF94B00EA6EEA /* Person+RunningMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 337853B81D7AF94B00EA6EEA /* Person+RunningMan.m */; };
+		337853BC1D7BD5F000EA6EEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 337853BB1D7BD5F000EA6EEA /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		337853AA1D7AE09200EA6EEA /* Runtime-实践篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Runtime-实践篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		337853AD1D7AE09200EA6EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		337853B41D7AE2F600EA6EEA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		337853B51D7AE2F600EA6EEA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		337853B71D7AF94B00EA6EEA /* Person+RunningMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+RunningMan.h"; sourceTree = "<group>"; };
+		337853B81D7AF94B00EA6EEA /* Person+RunningMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+RunningMan.m"; sourceTree = "<group>"; };
+		337853BA1D7BD5F000EA6EEA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		337853BB1D7BD5F000EA6EEA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				337853AD1D7AE09200EA6EEA /* main.m */,
+				337853B41D7AE2F600EA6EEA /* Person.h */,
+				337853B51D7AE2F600EA6EEA /* Person.m */,
+				337853B71D7AF94B00EA6EEA /* Person+RunningMan.h */,
+				337853B81D7AF94B00EA6EEA /* Person+RunningMan.m */,
+				337853BA1D7BD5F000EA6EEA /* Dog.h */,
+				337853BB1D7BD5F000EA6EEA /* Dog.m */,
 			);
 			path = "Runtime-实践篇";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337853B91D7AF94B00EA6EEA /* Person+RunningMan.m in Sources */,
+				337853B61D7AE2F600EA6EEA /* Person.m in Sources */,
+				337853BC1D7BD5F000EA6EEA /* Dog.m in Sources */,
 				337853AE1D7AE09200EA6EEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
